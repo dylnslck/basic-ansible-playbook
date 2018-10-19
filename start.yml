@@ -1,0 +1,6 @@
+---
+- hosts: test
+  remote_user: ubuntu
+  tasks:
+    - name: Start app
+      command: pm2 start app

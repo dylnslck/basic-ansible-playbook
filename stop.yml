@@ -1,0 +1,6 @@
+---
+- hosts: test
+  remote_user: ubuntu
+  tasks:
+    - name: Stop app
+      command: pm2 stop app
